@@ -36,7 +36,7 @@ export default function MiddleData() {
             />
           </Grid>
 
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <Typography
               sx={{ paddingLeft: "10px", color: "#101010", fontSize: "20px" }}
             >
@@ -66,22 +66,12 @@ export default function MiddleData() {
           <Grid item xs={12}>
             <Typography sx={{ paddingLeft: "10px", fontSize: "17px" }}>
               It is a long established fact that a reader will be distracted by
-              the readable content of
-            </Typography>
-          </Grid>
-
-          <Grid item xs={7}>
-            <Typography
-              sx={{
-                paddingLeft: "10px",
-                fontSize: "17px",
-                paddingRight: "13px",
-              }}
-            >
-              a page when looking at its layout.
+              the readable content of   a page when looking at its layout.
               <span style={{ color: "red" }}>Read More</span>
             </Typography>
           </Grid>
+
+         
         </Grid>
 
         <Grid
@@ -106,16 +96,16 @@ export default function MiddleData() {
             <Typography sx={{ paddingLeft: "10px" }}>9.8k</Typography>
           </Grid>
 
-          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "20px" }}>
+          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "25px" }}>
             <img
               src="https://i.fbcd.co/products/resized/resized-750-500/7a386f67cb46400bfe7944ad893502aabea25bc36450a34225bb11e7808d2090.jpg"
               alt="not found"
               style={{ height: "20px", color: "black" }}
             />
-            <Typography sx={{ paddingLeft: "10px" }}>8.6k</Typography>
+            <Typography sx={{ paddingLeft: "5px" }}>8.6k</Typography>
           </Grid>
 
-          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "40px" }}>
+          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "45px" }}>
             <img
               src="          https://www.freepnglogos.com/uploads/share-png/arrow-invite-join-share-sharing-icon-15.png
 "

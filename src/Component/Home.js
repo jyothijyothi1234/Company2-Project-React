@@ -163,7 +163,7 @@ export default function Home() {
             />
           </Grid>
 
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <Typography sx={{ paddingLeft: "10px", color: "#101010" }}>
               Lara Leones
             </Typography>
@@ -189,19 +189,7 @@ export default function Home() {
           <Grid item xs={12}>
             <Typography sx={{ paddingLeft: "10px", fontSize: "17px" }}>
               It is a long established fact that a reader will be distracted by
-              the readable content of
-            </Typography>
-          </Grid>
-
-          <Grid item xs={7}>
-            <Typography
-              sx={{
-                paddingLeft: "10px",
-                fontSize: "17px",
-                paddingRight: "13px",
-              }}
-            >
-              a page when looking at its layout.
+              the readable content of  a page when looking at its layout.
               <span style={{ color: "red" }}>Read More</span>
             </Typography>
           </Grid>
@@ -229,16 +217,16 @@ export default function Home() {
             <Typography sx={{ paddingLeft: "10px" }}>9.8k</Typography>
           </Grid>
 
-          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "20px" }}>
+          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "30px" }}>
             <img
               src="https://i.fbcd.co/products/resized/resized-750-500/7a386f67cb46400bfe7944ad893502aabea25bc36450a34225bb11e7808d2090.jpg"
               alt="not found"
               style={{ height: "20px", color: "black" }}
             />
-            <Typography sx={{ paddingLeft: "10px" }}>8.6k</Typography>
+            <Typography sx={{ padding: " 0px 0px 0px 5px" }}>8.6k</Typography>
           </Grid>
 
-          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "40px" }}>
+          <Grid item xs={1} sx={{ display: "flex", paddingLeft: "45px" }}>
             <img
               src="          https://www.freepnglogos.com/uploads/share-png/arrow-invite-join-share-sharing-icon-15.png
 "
@@ -348,7 +336,7 @@ export default function Home() {
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRt4IMjaP-rrekoAZCqCGjBsO3lNvfXAKiafQ&s"
               alt="not found"
               style={{
-                width: "270px",
+                width: "90%",
                 borderRadius: "12px",
                 height: "120px",
                 marginBottom: "15px",
@@ -388,7 +376,7 @@ export default function Home() {
               src="https://blog.moffat.com.au/wp-content/uploads/2022/06/3-ways-to-improve-your-baking_Feature-Image-2b.jpg"
               alt="not found"
               style={{
-                width: "270px",
+                width: "90%",
                 borderRadius: "12px",
                 height: "120px",
                 marginBottom: "15px",
@@ -428,7 +416,7 @@ export default function Home() {
               src="https://images.pexels.com/photos/19789102/pexels-photo-19789102/free-photo-of-riga-latvia.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="not found"
               style={{
-                width: "270px",
+                width: "90%",
                 borderRadius: "12px",
                 height: "120px",
                 marginBottom: "15px",
@@ -468,7 +456,7 @@ export default function Home() {
               src="https://img.freepik.com/free-vector/watercolor-oil-painting-background_23-2150133494.jpg?size=626&ext=jpg&ga=GA1.1.1141335507.1717977600&semt=ais_user"
               alt="not found"
               style={{
-                width: "270px",
+                width: "90%",
                 borderRadius: "12px",
                 height: "120px",
                 marginBottom: "15px",
@@ -480,21 +468,21 @@ export default function Home() {
         <Grid
           item
           xs={12}
-          sx={{ display: "flex", padding: "12px 10px 1px 20px" }}
+          sx={{ display: "flex", padding: "12px 10px 1px 20px",height:"10%" }}
         >
           <img
             src="https://i.ytimg.com/vi/orxXlAltFQg/maxresdefault.jpg"
             alt="not found"
-            style={{ width: "600px", borderRadius: "9px", height: "30px" }}
+            style={{width: "100%", borderRadius: "9px", height: "50%" }}
           />
         </Grid>
 
         <Grid
           item
           xs={12}
-          sx={{ display: "flex", padding: "10px 10px 1px 20px" }}
+          sx={{ display: "flex", padding: "5px 10px 1px 20px" }}
         >
-          <Typography sx={{ paddingLeft: "20px", fontSize: "10px" }}>
+          <Typography sx={{ paddingLeft: "5px", fontSize: "10px" }}>
             Privacy
           </Typography>
           <Typography sx={{ paddingLeft: "15px", fontSize: "10px" }}>

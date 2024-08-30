@@ -98,7 +98,7 @@ export default function Images() {
           <img
             src="https://m.media-amazon.com/images/I/81H3QBQ60qL.jpg"
             alt="not found"
-            style={{ height: "200px", borderRadius: "12px", width: "50px" }}
+            style={{ height: "200px", borderRadius: "12px", width: "50px",marginLeft:"5px" }}
           />
          
 <Typography sx={{ marginTop: "10px",fontSize:"15px" }}>
